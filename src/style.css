@@ -1,0 +1,89 @@
+body {
+  position: relative;
+  background-image: url("../src/imagens/fundo.jpg");
+  width: 90%;
+  height: 80vh;
+  background-size: cover;
+}
+h1 {
+  color: rgba(0, 155, 255, 1);
+  font-weight: 300;
+  margin-left: 3.2cm;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.alerta {
+  color: tomato;
+  font-weight: 400;
+  margin-left: 3.2cm;
+  max-width: 9em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.calculadora {
+  font-size: 28px;
+  margin-left: 3cm;
+  width: 10em;
+}
+
+/* Calculator after dividing by zero */
+.parar {
+  animation: broken 2s;
+  transform: translate3d(0, -2000px, 0);
+  opacity: 0;
+}
+
+.numFixo {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  float: left;
+  line-height: 3em;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7em;
+  height: 3em;
+}
+
+button {
+  border: 0;
+  background: rgba(90, 90, 90, 0.15);
+  color: rgba(0, 155, 255, 1);
+  cursor: pointer;
+  float: left;
+  font: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0.25em;
+  width: 2em;
+  height: 2em;
+  transition: all 0.5s;
+}
+button:hover {
+  background: rgba(50, 50, 50, 1);
+}
+.rodape {
+    position: absolute;
+    width: 100%;
+    margin-left: 1.3cm;
+    background: rgba(90, 90, 90, 0.15);
+    min-height: 1.4 rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 5);
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4rem;
+    padding: 0.4rem 0;
+    margin-top: 10.5cm;
+  }
+  .rodape a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.5;
+  }
+  a:hover {
+    opacity: .6;
+    transition-duration: 1.5s;
+  }

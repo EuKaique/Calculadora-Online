@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Online</title>
+
+    <link rel="icon" href="../src/imagens/calculadora.png" />
+    <link rel="stylesheet" href="../src/style.css" />
+    
+  </head>
+  <body>
+    <h1>Calculadora Online</h1>
+    <p class="alerta">Não divide por zero</p>
+
+    <div id="calculadora" class="calculadora">
+      <button id="limpar" class="limpar">C</button>
+
+      <div id="numFixo" class="numFixo">0</div>
+
+      <button class="num" data-num="7">7</button>
+      <button class="num" data-num="8">8</button>
+      <button class="num" data-num="9">9</button>
+      <button data-ops="mais" class="ops">+</button>
+
+      <button class="num" data-num="4">4</button>
+      <button class="num" data-num="5">5</button>
+      <button class="num" data-num="6">6</button>
+      <button data-ops="menos" class="ops">-</button>
+
+      <button class="num" data-num="1">1</button>
+      <button class="num" data-num="2">2</button>
+      <button class="num" data-num="3">3</button>
+      <button data-ops="vezes" class="ops">*</button>
+
+      <button class="num" data-num="0">0</button>
+      <button class="num" data-num=".">.</button>
+      <button id="igual" class="igual" data-result="">=</button>
+      <button data-ops="dividir" class="ops">/</button>
+    </div>
+    <script src="../src/script.js"></script>
+    <footer class="rodape">
+        Desenvolvido por
+        <a href="https://github.com/eukaique" target="_blank"
+          >Kaique Oliveira Santos <img id="img_github" src="../src/imagens/github_img.png" height="18px" width="24px">
+          </a
+        >
+        | Calculadora Online 2020 &copy;
+      </footer>
+  </body>
+</html>
